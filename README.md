@@ -32,5 +32,10 @@
 
   Кто заинтересуется, может, разобравшись с этим примером, ознакомиться [с остальными командами **"comfy-cli"** на PyPi](https://pypi.org/project/comfy-cli)
 
+  И, да: comfy-cli под Windows хранит свой ini-файл по адресу:
+  
+  - Users\User_Name\AppData\Local\comfy-cli\config.ini
+  - %LOCALAPPDATA%\comfy-cli\config.ini
+
   Dzen: https://dzen.ru/a/ZvQHVE-FzDG136lc 
   
