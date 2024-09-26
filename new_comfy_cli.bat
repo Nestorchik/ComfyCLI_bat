@@ -33,7 +33,7 @@ echo Installing nodes...
 "%CD%\python\Scripts\comfy" node install ComfyUI-Crystools
 "%CD%\python\Scripts\comfy" node install ComfyUI-Crystools-save
 echo done
-::
+:: Example model download
 echo ================================================================================
 echo Generating file "example_download_model.bat"
 echo @echo off >example_download_model.bat
@@ -44,7 +44,7 @@ echo echo done>>example_download_model.bat
 echo done
 echo echo ================================================================================>>example_download_model.bat
 echo pause>>example_download_model.bat
-::
+:: Example install custom nodes
 echo ================================================================================
 echo Generating file "example_install_node.bat"
 echo @echo off >example_install_node.bat
@@ -55,13 +55,14 @@ echo echo done>>example_install_node.bat
 echo done
 echo echo ================================================================================>>example_install_node.bat
 echo pause>>example_install_node.bat
-::
+:: Example generate run bat-file
 echo ================================================================================
 echo Generate file "run_ComfyUI.bat"
 echo @echo off>run_ComfyUI.bat
 echo "%CD%\python\Scripts\comfy" launch -- --windows-standalone-build --front-end-version Comfy-Org/ComfyUI_frontend@latest>>run_ComfyUI.bat
 echo pause>>run_ComfyUI.bat
 echo done
+:: Example generate bat-file - update all components
 echo ================================================================================
 echo Generate file "update_all_ComfyUI.bat"
 echo @echo off>update_all_ComfyUI.bat
@@ -71,6 +72,7 @@ echo "%CD%\python\Scripts\comfy" node update all>>update_all_ComfyUI.bat
 echo echo ================================================================================>>update_all_ComfyUI.bat
 echo pause>>update_all_ComfyUI.bat
 echo done
+:: Example start ComfyUI via Comfy-CLI launch
 echo ================================================================================
 echo Starting "ComfyUI"
 "%CD%\python\Scripts\comfy" launch -- --windows-standalone-build --front-end-version Comfy-Org/ComfyUI_frontend@latest
